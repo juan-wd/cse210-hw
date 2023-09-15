@@ -2,6 +2,7 @@
 This is the starter code for students in CSE 210.
 
 Juan Coronel status!!!
+Second change using vs code extension
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
