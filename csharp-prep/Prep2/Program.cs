@@ -15,7 +15,7 @@ class Program
 
         if (Grade >= 90)
         {
-            //Console.WriteLine("Your grade is A");
+            Console.WriteLine("Your grade is A");
             
         }
         else if (Grade >= 80)
