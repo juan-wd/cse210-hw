@@ -25,14 +25,14 @@ class Program
 
             else if (userNumber == 0)
             {
-                Console.Write("Thank you!")
-            }
+                Console.Write("Thank you!");
 
-        } 
-
+            } 
 
 
 
 
+
+        }
     }
 }
