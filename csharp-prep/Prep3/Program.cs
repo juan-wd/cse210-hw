@@ -10,11 +10,29 @@ class Program
         string Number = Console.ReadLine();
         int magicNumber = int.Parse(Number);
 
-        Console.WriteLine("Make your guess! ");
-        string Guess = Console.ReadLine();
-        int guessNumber = int.Parse(Guess);
+        int guessNumber = -1;
 
+        while (guessNumber != magicNumber)
+        {
+        
+        //Console.WriteLine("Make your guess! ");
+        //string Guess = Console.ReadLine();
+        //int guessNumber = int.Parse(Guess);    
 
+        if (magicNumber > guessNumber)
+        {
+            Console.WriteLine("Guess Higher number! ");    
+        }
+        else if (magicNumber < guessNumber)
+        {
+            Console.WriteLine("Guess lower! ");
+        }
+        else
+        {
+            Console.WriteLine("You guessed it! ");
+        }
+    
+        }
 
     }
 }

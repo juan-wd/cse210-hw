@@ -14,7 +14,7 @@ class Program
         //int Grade = int.Parse(grade);
         int Letter = int.Parse(letter);
 
-        string grade = "";
+        string grade = " ";
 
         // if (grade >= 90)
         if (Letter >= 90)
