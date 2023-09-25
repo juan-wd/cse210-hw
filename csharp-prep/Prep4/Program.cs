@@ -13,19 +13,19 @@ class Program
 
         while (userNumber != 0)
         {
-            Console.Write("Indicate your list of numbers, type 0 when you have finished");
+            Console.WriteLine("Indicate your list of numbers, type 0 when you have finished");
             string numbersList = Console.ReadLine();
             userNumber = int.Parse(numbersList);
 
             if (userNumber != 0)
             {
                 numbers.Add(userNumber);
-                Console.Write("Please select another number");
+                Console.WriteLine("Please select another number");
             }
 
             else if (userNumber == 0)
             {
-                Console.Write("Thank you!");
+                Console.WriteLine("Thank you!");
 
             } 
 
