@@ -30,8 +30,11 @@ class Program
     //    Console.WriteLine(job1._company);
 
         Resume resume  = new Resume();
+        resume._personName = "Juan Coronel";
+
         resume._listOfJobs.Add(job1);
         resume._listOfJobs.Add(job2);
+        
         Console.WriteLine(resume._listOfJobs[0]._jobTitle);
         
 
